@@ -33,6 +33,11 @@ td {
     font-size: 36px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+
+td:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 table, tr {
@@ -57,3 +62,23 @@ table {
   table tr td:last-child {
     border-right: 0;
   }
+
+  .winning-cell {
+    background-color: rgba(255, 255, 255, 0.4); /* Grün für Gewinnzellen */
+}
+
+.restart-btn {
+  margin-top: 100px;
+  background-color: #00B0EF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.restart-btn:hover {
+  background-color: #008bb9;
+}
